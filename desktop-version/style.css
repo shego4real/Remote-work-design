@@ -1,0 +1,114 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* For Nav items */
+#header-nav {
+    margin: 1rem 0 0 1rem;
+    padding-right: 1rem;
+}
+.nav-items {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.nav-items img {
+    height: 30px;
+}
+.nav-items img, .nav-items ul{
+    top: 15px;
+}
+.nav-items ul li {
+    position: relative;
+    bottom: 1rem;
+    font-family: 'Merriweather', serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    display: inline-block;
+    margin: 0 1rem 0 0;
+    list-style-type: none;
+}
+.nav-items ul li a {
+    text-decoration: none;
+    color: grey;
+}
+.nav-items ul li a span img {
+    display: inline-block;
+    height: 5px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+.nav-buttons {
+    margin-left: auto;
+}
+.nav-buttons a {
+    text-decoration: none;
+    color: grey;
+    display: inline-block;
+    margin-right: 1.2rem;
+    padding: 8px;
+    font-family: 'Merriweather', serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.nav-buttons .register {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+/* for container */
+#main {
+    padding-left: 8rem;
+    margin-top: 2rem;
+}
+.container {
+    display: flex;
+
+}
+.container .col-1 {
+    flex: 2;
+    flex-basis: 40%;
+}
+.container .col-1 h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.container .col-1 p {
+    color: grey;
+    font-family: 'Merriweather', serif;
+}
+.container .col-1 a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 2em;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-top: 1rem;
+    font-family: 'Merriweather', serif;
+}
+.container .col-1 nav {
+    position: relative;
+}
+.container .col-1 nav ul {
+    position: relative;
+    left: -2rem;
+}
+
+.container .col-1 nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 4rem;
+    margin-right: 18px;
+}
+.container .col-1 nav ul li img {
+    height: 15px
+}
+.container .col-2 {
+    flex-basis: 60%;
+    margin-left: 10rem;
+}
+.col-2 img {
+    height: 70vh;
+}
